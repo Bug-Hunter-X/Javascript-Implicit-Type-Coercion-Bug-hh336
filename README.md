@@ -1,0 +1,3 @@
+# Javascript Implicit Type Coercion Bug
+This repository demonstrates a common Javascript bug caused by implicit type coercion in arithmetic operations.
+The `foo` function intends to add two numbers. However, due to Javascript's loose typing, if either input is a string, the '+' operator performs string concatenation instead of numerical addition. This can lead to unexpected results. The bugSolution.js file provides a solution using explicit type conversion to handle various input types correctly.
